@@ -10,6 +10,7 @@ Adds snap-to-grid and guide lines to Cytoscape.js graphs.
 ## Dependencies
 
  * [Cytoscape.js]
+ * [JQuery]
 
 
 ## Usage instructions
@@ -24,15 +25,15 @@ Download the library:
 CommonJS:
 ```js
 var cytoscape = require('cytoscape');
-var snap-to-grid = require('cytoscape-snap-to-grid');
+var snapToGrid = require('cytoscape-snap-to-grid');
 
-snap-to-grid( cytoscape ); // register extension
+snapToGrid( cytoscape ); // register extension
 ```
 
 AMD:
 ```js
-require(['cytoscape', 'cytoscape-snap-to-grid'], function( cytoscape, snap-to-grid ){
-  snap-to-grid( cytoscape ); // register extension
+require(['cytoscape', 'cytoscape-snap-to-grid'], function( cytoscape, snapToGrid ){
+  snapToGrid( cytoscape ); // register extension
 });
 ```
 
@@ -74,6 +75,7 @@ The available functions are:
 
 
 [Cytoscape.js]: http://js.cytoscape.org/
+[JQuery]: http://jquery.com/
 [direct download]: /tags
 [CSS color value]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [this]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
