@@ -76,7 +76,7 @@ The available functions are:
 
 [Cytoscape.js]: http://js.cytoscape.org/
 [JQuery]: http://jquery.com/
-[direct download]: /tags
+[direct download]: ../../tags
 [CSS color value]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value
 [this]: https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/setLineDash
 [picture]: /snap-to-grid.png
