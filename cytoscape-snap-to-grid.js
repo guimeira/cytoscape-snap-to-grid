@@ -91,9 +91,9 @@
           $container.data( 'snapToGrid', opts );
           
           var optionsCache;
-            var options = function() {
-              return optionsCache || ( optionsCache = $container.data( 'snapToGrid' ) );
-            }
+          var options = function() {
+            return optionsCache || ( optionsCache = $container.data( 'snapToGrid' ) );
+          };
           
           var resizeCanvas = function() {
             $canvas
@@ -231,7 +231,7 @@
           var gridOff = function() {
             options().drawGrid = false;
             drawGrid();
-          }
+          };
           
           $container.append( $canvas );
           $( window ).on( 'resize', resizeCanvas );
