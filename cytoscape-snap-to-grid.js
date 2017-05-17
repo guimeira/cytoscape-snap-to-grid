@@ -197,20 +197,20 @@
           };
           
           var snapAll = function() {
-            cy.nodes().each(function(i, node) {
+            cy.nodes().each(function(node) {
               snapNode(node);
             });
           };
           
           var nodeFreed = function(ev) {
             if(options().snapToGrid) {
-              snapNode(ev.cyTarget);
+              snapNode(ev.target);
             }
           };
           
           var nodeAdded = function(ev) {
             if(options().snapToGrid) {
-              snapNode(ev.cyTarget);
+              snapNode(ev.target);
             }
           };
           
