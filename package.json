@@ -1,7 +1,7 @@
 {
   "name": "cytoscape-snap-to-grid",
-  "version": "1.0.0",
-  "description": "Adds snap-to-grid and guide lines to Cytoscape.js graphs.",
+  "version": "2.0.0",
+  "description": "Adds snap-to-grid and gridlines to Cytoscape.js graphs.",
   "main": "cytoscape-snap-to-grid.js",
   "spm": {
     "main": "cytoscape-snap-to-grid.js"
@@ -15,7 +15,7 @@
   },
   "keywords": [
     "cytoscape",
-    "cyext"
+    "cytoscape-extension"
   ],
   "license": "MIT",
   "bugs": {
@@ -30,5 +30,11 @@
     "gulp-shell": "^0.2.9",
     "jshint-stylish": "^1.0.0",
     "run-sequence": "^1.0.0"
+  },
+  "peerDependencies": {
+    "cytoscape": "^3.0.0"
+  },
+  "dependencies": {
+  
   }
 }

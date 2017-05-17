@@ -4,12 +4,12 @@ cytoscape-snap-to-grid
 
 ## Description
 
-Adds snap-to-grid and guide lines to Cytoscape.js graphs.
+Adds snap-to-grid and gridlines to Cytoscape.js graphs.
 
 
 ## Dependencies
 
- * [Cytoscape.js]
+ * [Cytoscape.js] ^3.0.0 (for older versions of Cytoscape, please use version [1.0.0])
  * [JQuery]
 
 
@@ -75,6 +75,7 @@ The available functions are:
 
 
 [Cytoscape.js]: http://js.cytoscape.org/
+[1.0.0]: ../../releases/tag/1.0.0
 [JQuery]: http://jquery.com/
 [direct download]: ../../tags
 [CSS color value]: https://developer.mozilla.org/en-US/docs/Web/CSS/color_value

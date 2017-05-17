@@ -1,7 +1,10 @@
 {
   "name": "cytoscape-snap-to-grid",
-  "description": "Adds snap-to-grid and guide lines to Cytoscape.js graphs.",
+  "description": "Adds snap-to-grid and gridlines to Cytoscape.js graphs.",
   "main": "cytoscape-snap-to-grid.js",
+  "dependencies": {
+    "cytoscape": "^3.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/guimeira/cytoscape-snap-to-grid.git"
